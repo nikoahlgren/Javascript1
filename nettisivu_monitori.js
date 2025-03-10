@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <td>${site}</td>
                 <td>
                     <button onclick="pingSite(${index})">Ping</button>
-                    <button onclick="deleteSite(${index})">Delete</button>
+                    <button onclick="deleteSite(${index})">Poista</button>
                 </td>
             `;
             siteList.appendChild(row);
